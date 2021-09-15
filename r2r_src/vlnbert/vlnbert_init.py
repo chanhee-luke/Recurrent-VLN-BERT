@@ -1,6 +1,6 @@
 # Recurrent VLN-BERT, 2020, by Yicong.Hong@anu.edu.au
 
-from transformers.pytorch_transformers import (BertConfig, BertTokenizer)
+from pytorch_transformers import (BertConfig, BertTokenizer)
 
 def get_tokenizer(args):
     if args.vlnbert == 'oscar':
